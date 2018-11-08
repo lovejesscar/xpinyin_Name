@@ -9,6 +9,7 @@ class Pinyin(object):
             for line in f:
                 key,val = line.split('=')
                 self.dictName[key]=val
+        f.close()
 
     #判断是否是姓氏，是返回
     def convert_name(self,chars=u''):
