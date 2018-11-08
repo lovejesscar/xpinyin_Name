@@ -5,7 +5,7 @@
 # How to Use
 * First install xpinyin，then just import it.
 * 使用时需要安装xpinyin,使用pip install xpinyin安装。然后import 即可。
-* 
+* 接口说明 get_pinyin_name("姓名"，分隔符，是否显示声调，大小写转换)，其中显示声调和大小写转换同xpinyin
 
 # Thanks
 * xpinyin & Pinyin4Net
